@@ -1,6 +1,5 @@
-# Numerical-Analysis-Methods
-Computer Science Numerical Analysis methods in C. This was my second semester Numerical Analysis ('Sayısal Analiz') course project.
-The methods are included:
+# Numerical Analysis Methods
+Numerical Analysis methods are included:
 1. Bisection
 2. Regula-Falsi
 3. Newton-Rapshon
@@ -11,3 +10,17 @@ The methods are included:
 8. Simpson
 9. Trapez
 10. Gregory-Newton interpolation 
+
+# Differential Equations Runge Kutta4 Method
+Numerical solution of linear ordinary differential equations with constant coefficients using the Runge-Kutta 4 method. 
+
+## Compile & Run
+
+```bash
+# Numerical analysis
+gcc Numerical-Analysis/numerical_analysis.c -o numerical -lm
+./numerical
+
+# Runge-Kutta
+gcc Runge-Kutta4-Method/runge_kutta4.c -o rk4 -lm
+./rk4
